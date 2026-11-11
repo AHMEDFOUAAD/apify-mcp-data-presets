@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.AHMEDFOUAAD/apify-rag-content",
+  "title": "Apify Content for RAG",
+  "description": "Fresh RSS/Atom items, published podcast transcripts and public PDF text via Apify.",
+  "version": "1.0.0",
+  "websiteUrl": "https://github.com/AHMEDFOUAAD/apify-mcp-data-presets/tree/main/bundles/content-for-rag",
+  "repository": {
+    "url": "https://github.com/AHMEDFOUAAD/apify-mcp-data-presets",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=ahmed.fouaad82/rss-feed-reader,ahmed.fouaad82/podcast-published-transcripts,ahmed.fouaad82/public-pdf-text",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. Your Apify API token as 'Bearer <token>'. Leave empty to sign in to Apify with OAuth.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

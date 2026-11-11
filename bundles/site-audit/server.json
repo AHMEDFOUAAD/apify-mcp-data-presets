@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.AHMEDFOUAAD/apify-site-audit",
+  "title": "Apify Site audit",
+  "description": "Sitemap URL extraction, bulk URL status / broken-link checks and dataset dedup via Apify.",
+  "version": "1.0.0",
+  "websiteUrl": "https://github.com/AHMEDFOUAAD/apify-mcp-data-presets/tree/main/bundles/site-audit",
+  "repository": {
+    "url": "https://github.com/AHMEDFOUAAD/apify-mcp-data-presets",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=ahmed.fouaad82/sitemap-extractor,ahmed.fouaad82/url-status-checker,ahmed.fouaad82/dataset-dedup-merge",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. Your Apify API token as 'Bearer <token>'. Leave empty to sign in to Apify with OAuth.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

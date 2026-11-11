@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "apify-token",
+      "description": "Apify API token (console.apify.com/settings/integrations)",
+      "password": true
+    }
+  ],
+  "servers": {
+    "apify-rag-content": {
+      "type": "http",
+      "url": "https://mcp.apify.com/?tools=ahmed.fouaad82/rss-feed-reader,ahmed.fouaad82/podcast-published-transcripts,ahmed.fouaad82/public-pdf-text",
+      "headers": {
+        "Authorization": "Bearer ${input:apify-token}"
+      }
+    }
+  }
+}

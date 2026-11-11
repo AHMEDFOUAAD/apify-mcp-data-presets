@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "apify-public-jobs": {
+      "type": "http",
+      "url": "https://mcp.apify.com/?tools=ahmed.fouaad82/greenhouse-public-jobs,ahmed.fouaad82/lever-salary-jobs,ahmed.fouaad82/ats-public-jobs"
+    }
+  }
+}

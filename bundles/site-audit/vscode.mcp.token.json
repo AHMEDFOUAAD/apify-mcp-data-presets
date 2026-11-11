@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "apify-token",
+      "description": "Apify API token (console.apify.com/settings/integrations)",
+      "password": true
+    }
+  ],
+  "servers": {
+    "apify-site-audit": {
+      "type": "http",
+      "url": "https://mcp.apify.com/?tools=ahmed.fouaad82/sitemap-extractor,ahmed.fouaad82/url-status-checker,ahmed.fouaad82/dataset-dedup-merge",
+      "headers": {
+        "Authorization": "Bearer ${input:apify-token}"
+      }
+    }
+  }
+}
