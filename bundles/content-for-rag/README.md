@@ -14,7 +14,7 @@ https://mcp.apify.com/?tools=ahmed.fouaad82/rss-feed-reader,ahmed.fouaad82/podca
 |---|---|---|---|
 | [RSS Feed Reader - RSS and Atom to JSON](https://apify.com/ahmed.fouaad82/rss-feed-reader) | `ahmed-dot-fouaad82--rss-feed-reader` | RSS/Atom items as clean JSON (title, url, dates, summary), with keyword and since filters. | $1.00 per 1,000 items |
 | [Podcast Transcript Scraper - Published RSS Transcripts](https://apify.com/ahmed.fouaad82/podcast-published-transcripts) | `ahmed-dot-fouaad82--podcast-published-transcripts` | Transcripts that podcasts already publish in their RSS feed (podcast:transcript), as text/segments. No speech-to-text. | $2.00 per 1,000 transcripts |
-| [PDF to Text Extractor - Public PDF URLs](https://apify.com/ahmed.fouaad82/public-pdf-text) | `ahmed-dot-fouaad82--public-pdf-text` | Page-by-page text from public PDF URLs, ready for chunking. | $20.00 per 1,000 pages |
+| [PDF to Text Extractor - Public PDF URLs](https://apify.com/ahmed.fouaad82/public-pdf-text) | `ahmed-dot-fouaad82--public-pdf-text` | Page-by-page text from public PDF URLs, ready for chunking. | $2.00 per 1,000 pages (first 25 pages per run free) |
 
 \* Prices read from the public Apify Store API on 2026-11-11; the Store page Pricing tab is authoritative.
 
